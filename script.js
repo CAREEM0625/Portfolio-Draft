@@ -23,7 +23,7 @@
         }
       });
     }, { threshold: 0.08 });
-    document.querySelectorAll('.section-heading, .project, .about > div, .contact').forEach(element => {
+    document.querySelectorAll('.section-heading, .video-frame, .project, .about > div, .contact').forEach(element => {
       element.classList.add('reveal');
       observer.observe(element);
     });
